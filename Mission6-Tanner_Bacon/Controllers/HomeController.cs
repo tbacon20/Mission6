@@ -28,9 +28,17 @@ namespace Mission6_Tanner_Bacon.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult Movies()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Movies(ApplicationResponse res)
+        {
+
+            return View("Submitted", res);
         }
 
         public IActionResult Privacy()

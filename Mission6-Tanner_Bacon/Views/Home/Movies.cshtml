@@ -2,41 +2,58 @@
     ViewData["Title"] = "Movie Collection";
 }
 
+@model ApplicationResponse
+
 
 <div class="p-5 text-center bg-secondary">
-    <h1 class="mb-3">Baconsale Podcast</h1>
-    <h4 class="mb-3">A Hickory-Smoked Pop Culture Podcast</h4>
-    <a class="btn btn-primary" href="https://baconsale.com/" role="button">Go To Podcast</a>
+    <h1 class="mb-3">The Ultimate Movie Collection</h1>
+    <h4 class="mb-3">Add Your Favorite Below</h4>
 </div>
 
 <div class="p-5 bg-light center-form">
     <form id="gradeform" class="bg-secondary" method="post">
-        <h2>Grade Calculator</h2>
-        <label>Assignments: </label>
-        <input id="assignments" value="" class='col-md-3 input'  />
+        <h2>Enter a New Movie</h2>
+        <label asp-for="Title">Movie Title</label>
+        <input asp-for="Title" />
         <br />
 
-        <label>Group Project: </label>
-        <input id="groupproject" value="" class='col-md-3 input'  />
+        <label asp-for="Year">Year</label>
+        <input asp-for="Year" />
         <br />
 
-        <label>Quizzes: </label>
-        <input id="quizzes" value="" class='col-md-3 input' />
+        <label asp-for="Director">Director</label>
+        <input asp-for="Director" />
         <br />
 
-        <label>Midterm Exam: </label>
-        <input id="midterm" value="" class='col-md-3 input' @*asp-for="Midterm"*@ />
+        <label asp-for="Category">Category</label>
+        <input asp-for="Category" />
         <br />
 
-        <label>Final Exam: </label>
-        <input id="final" value="" class='col-md-3 input' @*asp-for="Final"*@ />
+        <label asp-for="Rating">Rating</label>
+        <select asp-for="Rating">
+            <option value="G">G</option>
+            <option value="PG">PG</option>
+            <option value="PG-13">PG-13</option>
+            <option value="R">R</option>
+        </select>
         <br />
 
-        <label>INTEX: </label>
-        <input id="intex" value="" class='col-md-3 input' @*asp-for="Intex"*@ />
+        <label asp-for="Edited">Edited</label>
+        <select asp-for="Edited">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
         <br />
 
-        <input type="submit" name="button" value="Calculate Grade" id="btnSend" class='btn-primary btn-block btn' />
+        <label asp-for="Lent">Lent To</label>
+        <input asp-for="Lent" />
+        <br />
+
+        <label asp-for="Notes">Notes</label>
+        <input asp-for="Notes" />
+        <br />
+
+        <button type="submit" name="button" value="Calculate Grade" id="btnSend" class='btn-primary btn-block btn'>Add Movie</button>
         <br />
 
         <div asp-validation-summary="All"></div>

@@ -36,3 +36,4 @@ C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Missio
 C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Mission6-Tanner_Bacon.csproj.CopyComplete
 C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Razor\Views\Home\Movies.cshtml.g.cs
 C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Razor\Views\Home\Podcast.cshtml.g.cs
+C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Razor\Views\Home\Submitted.cshtml.g.cs
