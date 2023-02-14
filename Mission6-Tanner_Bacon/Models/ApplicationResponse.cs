@@ -8,6 +8,10 @@ namespace Mission6_Tanner_Bacon.Models
 {
     public class ApplicationResponse
     {
+        [Key]
+        [Required]
+        public int ApplicationId { get; set; }
+
         [Required(ErrorMessage = "Category is required.")]
         public string Category { get; set; }
         //public static readonly string[] Options = new string[] { "G", "PG", "PG-13", "R"};
