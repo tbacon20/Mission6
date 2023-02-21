@@ -21,10 +21,7 @@ C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Missio
 C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Mission6-Tanner_Bacon.TagHelpers.output.cache
 C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Mission6-Tanner_Bacon.RazorCoreGenerate.cache
 C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Mission6-Tanner_Bacon.RazorTargetAssemblyInfo.cache
@@ -86,3 +83,5 @@ C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Missio
 C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Razor\Views\Home\MovieList.cshtml.g.cs
+C:\Users\Tanner\ISCore\WINTER 2023\IS413 Enterprise App\Missions\Mission6\Mission6-Tanner_Bacon\Mission6-Tanner_Bacon\obj\Debug\netcoreapp3.1\Razor\Views\Home\Delete.cshtml.g.cs

@@ -8,7 +8,7 @@ using Mission6_Tanner_Bacon.Models;
 namespace Mission6_Tanner_Bacon.Migrations
 {
     [DbContext(typeof(MovieCollectionContext))]
-    [Migration("20230214005109_Initial")]
+    [Migration("20230218184917_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,9 +23,8 @@ namespace Mission6_Tanner_Bacon.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Director")
                         .IsRequired()
@@ -54,13 +53,15 @@ namespace Mission6_Tanner_Bacon.Migrations
 
                     b.HasKey("ApplicationId");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("Responses");
 
                     b.HasData(
                         new
                         {
                             ApplicationId = 1,
-                            Category = "Science Fiction",
+                            CategoryId = 1,
                             Director = "Christopher Nolan",
                             Edited = "",
                             Lent = "",
@@ -72,7 +73,7 @@ namespace Mission6_Tanner_Bacon.Migrations
                         new
                         {
                             ApplicationId = 2,
-                            Category = "Action",
+                            CategoryId = 2,
                             Director = "Christopher Nolan",
                             Edited = "",
                             Lent = "",
@@ -84,7 +85,7 @@ namespace Mission6_Tanner_Bacon.Migrations
                         new
                         {
                             ApplicationId = 3,
-                            Category = "Science Fiction",
+                            CategoryId = 1,
                             Director = "Christopher Nolan",
                             Edited = "",
                             Lent = "",
@@ -93,6 +94,77 @@ namespace Mission6_Tanner_Bacon.Migrations
                             Title = "Inception",
                             Year = 2010
                         });
+                });
+
+            modelBuilder.Entity("Mission6_Tanner_Bacon.Models.Category", b =>
+                {
+                    b.Property<int>("CategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("CategoryName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("CategoryId");
+
+                    b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = 1,
+                            CategoryName = "Science Fiction"
+                        },
+                        new
+                        {
+                            CategoryId = 2,
+                            CategoryName = "Action"
+                        },
+                        new
+                        {
+                            CategoryId = 3,
+                            CategoryName = "Drama"
+                        },
+                        new
+                        {
+                            CategoryId = 4,
+                            CategoryName = "Romance"
+                        },
+                        new
+                        {
+                            CategoryId = 5,
+                            CategoryName = "Comedy"
+                        },
+                        new
+                        {
+                            CategoryId = 6,
+                            CategoryName = "Documentary"
+                        },
+                        new
+                        {
+                            CategoryId = 7,
+                            CategoryName = "Horror"
+                        },
+                        new
+                        {
+                            CategoryId = 8,
+                            CategoryName = "Thriller"
+                        },
+                        new
+                        {
+                            CategoryId = 9,
+                            CategoryName = "Adventure"
+                        });
+                });
+
+            modelBuilder.Entity("Mission6_Tanner_Bacon.Models.ApplicationResponse", b =>
+                {
+                    b.HasOne("Mission6_Tanner_Bacon.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
